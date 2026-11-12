@@ -1,0 +1,82 @@
+
+# ==========================================
+# PYTHON AUTOMATION PROJECT - ROOT GITIGNORE
+# ==========================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python package/build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Google OAuth credentials and tokens
+credentials.json
+token.json
+client_secret*.json
+
+# Other sensitive credentials
+*.pem
+*.key
+secrets.json
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python linting and type checking
+.ruff_cache/
+.mypy_cache/
+.pyright/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Application logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE settings
+.idea/
+
+# VS Code local settings (optional)
+.vscode/
+
+# Database files (local development)
+*.sqlite3
+*.db
+
+# Local automation output (optional)
+# Uncomment if you do not want generated output files in Git.
+# **/Output/
+# **/Archive/

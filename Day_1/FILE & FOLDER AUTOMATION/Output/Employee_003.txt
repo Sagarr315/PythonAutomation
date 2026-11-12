@@ -1,0 +1,3 @@
+Employee ID: Employee_003
+Department: Automation
+Status: Active
