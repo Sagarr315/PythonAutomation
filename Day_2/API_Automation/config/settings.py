@@ -1,0 +1,5 @@
+API_BASE_URL = "https://dummyjson.com"
+
+REQUEST_TIMEOUT = 20
+
+DEFAULT_PRODUCT_LIMIT = 5
